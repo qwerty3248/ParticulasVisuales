@@ -1,0 +1,76 @@
+\doxysection{ui.\+Main\+Window Class Reference}
+\hypertarget{classui_1_1MainWindow}{}\label{classui_1_1MainWindow}\index{ui.MainWindow@{ui.MainWindow}}
+
+
+Inheritance diagram for ui.\+Main\+Window\+:
+% FIG 0
+
+
+Collaboration diagram for ui.\+Main\+Window\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classui_1_1MainWindow_a1ec314328b58ca2376e4e8613bd5e8c7}\label{classui_1_1MainWindow_a1ec314328b58ca2376e4e8613bd5e8c7} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+\mbox{\hyperlink{classui_1_1MainWindow_a4a235c3d36f58d02dd1a2b72a99fced4}{load\+\_\+data}} (self)
+\item 
+\mbox{\hyperlink{classui_1_1MainWindow_af18759883ef7d459a1f9609ffec6d866}{show\+\_\+plot}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classui_1_1MainWindow_a889b1b02165c1224bca90060585fbda3}\label{classui_1_1MainWindow_a889b1b02165c1224bca90060585fbda3} 
+{\bfseries load\+\_\+button}
+\item 
+\Hypertarget{classui_1_1MainWindow_a1d446fcc2d3f32f06bdcbdfdbb8f4f19}\label{classui_1_1MainWindow_a1d446fcc2d3f32f06bdcbdfdbb8f4f19} 
+{\bfseries load\+\_\+data}
+\item 
+\Hypertarget{classui_1_1MainWindow_a2ba5e4b88754adb45022ccf69dbf36a0}\label{classui_1_1MainWindow_a2ba5e4b88754adb45022ccf69dbf36a0} 
+{\bfseries plot\+\_\+button}
+\item 
+\Hypertarget{classui_1_1MainWindow_a3ef496614c93c660cfc51850e3d17e2d}\label{classui_1_1MainWindow_a3ef496614c93c660cfc51850e3d17e2d} 
+{\bfseries show\+\_\+plot}
+\item 
+\Hypertarget{classui_1_1MainWindow_aa3561267f2f5589956f17ef8e17ab1a4}\label{classui_1_1MainWindow_aa3561267f2f5589956f17ef8e17ab1a4} 
+{\bfseries data}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Main application window for particle collision visualization.
+
+This class creates the GUI and manages user interactions for loading data
+and displaying visualizations.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classui_1_1MainWindow_a4a235c3d36f58d02dd1a2b72a99fced4}\label{classui_1_1MainWindow_a4a235c3d36f58d02dd1a2b72a99fced4} 
+\index{ui.MainWindow@{ui.MainWindow}!load\_data@{load\_data}}
+\index{load\_data@{load\_data}!ui.MainWindow@{ui.MainWindow}}
+\doxysubsubsection{\texorpdfstring{load\_data()}{load\_data()}}
+{\footnotesize\ttfamily ui.\+Main\+Window.\+load\+\_\+data (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Load data from a selected CSV file.
+
+This function opens a file dialog for the user to select a CSV file,
+loads the data, processes it, and stores it for later visualization.
+\end{DoxyVerb}
+ \Hypertarget{classui_1_1MainWindow_af18759883ef7d459a1f9609ffec6d866}\label{classui_1_1MainWindow_af18759883ef7d459a1f9609ffec6d866} 
+\index{ui.MainWindow@{ui.MainWindow}!show\_plot@{show\_plot}}
+\index{show\_plot@{show\_plot}!ui.MainWindow@{ui.MainWindow}}
+\doxysubsubsection{\texorpdfstring{show\_plot()}{show\_plot()}}
+{\footnotesize\ttfamily ui.\+Main\+Window.\+show\+\_\+plot (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Display the visualization of the loaded data.
+
+This function checks if data has been loaded and calls the plotting function
+to visualize the particle collisions.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ui.\+py\end{DoxyCompactItemize}
